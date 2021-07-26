@@ -1,0 +1,113 @@
+body {
+    background-color: #FAEAF6;
+    color: #C173B7;
+    
+
+}
+    
+h1 {
+    font-size: 60px;
+    word-break: break-all;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 23%;
+  }
+
+  /* Content */
+.design {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  main {
+      float: none;
+  }
+
+h3 {
+    font-size: 25px;
+    color: #872558;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.jumbotron {
+  background-image: url(https://i.pinimg.com/originals/43/99/e7/4399e728a0fb3c8f98c6296344a37215.jpg);
+    background-size: cover;
+    height: 100%;
+    color: #872558;
+}
+
+.display-4 {
+  background-image: url(https://i.pinimg.com/originals/43/99/e7/4399e728a0fb3c8f98c6296344a37215.jpg);
+  background-size: cover;
+  height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #F1CAE6;
+}
+
+h2 {
+  color: #872558;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+ul {
+  color: #872558;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
